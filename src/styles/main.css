@@ -245,7 +245,7 @@ body {
 	position: relative;
 	padding: 20px 0;
 	width: 100%;
-	background: #fff;
+	background-image: linear-gradient(to right top, #c3d6a6, #c7daa0, #ccde99, #d2e292, #d8e68b, #dde48a, #e1e289, #e5e089, #e4d890, #e2d197, #ddcb9f, #d6c5a6);
 	border-radius: 3px;
 	box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 	overflow: hidden;
@@ -260,7 +260,7 @@ body {
 	width: 100%;
 	height: 130px;
 	top: 0;
-	background: #f9f9f9;
+	background: #ece7e3;
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
 	z-index: -1
 }
@@ -326,7 +326,7 @@ body {
 
 .circle svg {
   fill: none;
-  stroke: #8a3ab9;
+  stroke: #91994a;
   stroke-linecap: round;
   stroke-width: 3;
   stroke-dasharray: 1;
@@ -342,11 +342,11 @@ body {
 
 @keyframes stroke-draw {
   from {
-    stroke: #8a3ab9;
+    stroke: #26704d;
     stroke-dasharray: 1;
   }
   to {
-    stroke: #cd486b;
+    stroke: #d7e468;
     transform: rotate(180deg);
     stroke-dasharray: 8;
   }
